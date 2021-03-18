@@ -1,0 +1,38 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-image: url(https://wallpaperaccess.com/grey);
+    background: lightcoral;
+}
+
+section {
+    text-align: center;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+}
+
+.cell {
+    font-family: Gill Sans Extrabold, sans-serif;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 2px #e71515;
+    border: 2px solid #3333;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.game--status {
+    background: lightcyan;
+}
+
+.game--restart {
+    background: mediumblue;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+}
