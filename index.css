@@ -38,3 +38,7 @@ section {
     width: 80px;
     height: 80px;
 }
+
+.section {
+    display: flex;
+}
